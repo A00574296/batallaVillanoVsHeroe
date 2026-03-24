@@ -1,0 +1,3 @@
+# Ignore Firebase service account JSON files
+act23mar-firebase-adminsdk-fbsvc-*.json
+*-firebase-adminsdk-*.json

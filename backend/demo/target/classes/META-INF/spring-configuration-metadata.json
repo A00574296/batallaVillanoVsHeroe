@@ -1,0 +1,32 @@
+{
+  "properties": [
+    {
+      "name": "firebase.service-account",
+      "type": "java.lang.String",
+      "description": "Classpath filename for the Firebase service account JSON (or use FIREBASE_SERVICE_ACCOUNT env var).",
+      "defaultValue": "act23mar-firebase-adminsdk.json",
+      "sourceType": "com.example.config.FirebaseConfig"
+    },
+    {
+      "name": "firebase.project-id",
+      "type": "java.lang.String",
+      "description": "Firebase project id used when initializing the SDK.",
+      "defaultValue": "act23mar",
+      "sourceType": "com.example.config.FirebaseConfig"
+    },
+    {
+      "name": "firebase.default-health1",
+      "type": "int",
+      "description": "Default health for pokemon 1 when creating a new battle.",
+      "defaultValue": 100,
+      "sourceType": "com.example.controllers.BattlesController"
+    },
+    {
+      "name": "firebase.default-health2",
+      "type": "int",
+      "description": "Default health for pokemon 2 when creating a new battle.",
+      "defaultValue": 100,
+      "sourceType": "com.example.controllers.BattlesController"
+    }
+  ]
+}
